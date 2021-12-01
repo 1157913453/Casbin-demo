@@ -1,0 +1,22 @@
+p, gh_dev, gh, data1, read
+p, gh_dev, gh, data1, write
+p, hh_dev, hh, data1, read
+p, hh_dev, hh, data1, write
+p, gh_admin, gh, data2, read
+p, hh_admin, hh, data2, read
+p, system, gh, data1, read
+p, system, gh, data1, write
+p, system, gh, data2, read
+p, system, gh, data2, write
+p, system, hh, data1, read
+p, system, hh, data1, write
+p, system, hh, data2, read
+p, system, hh, data2, write
+g, gh_admin, gh_dev, gh
+g, hh_admin, hh_dev, hh
+g, zr, gh_dev, gh
+g, lc, gh_admin, gh
+g, mdw, hh_dev, hh
+g, pzc, hh_admin, hh
+g, gp, system, gh
+g, gp, system, hh
